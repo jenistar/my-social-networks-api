@@ -1,0 +1,45 @@
+{
+  "name": "my-social-networks-api",
+  "version": "2.0.0",
+  "description": "API REST My Social Networks : utilisateurs, événements, groupes, discussions, albums photo, sondages, billetterie, shopping list et covoiturage",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test --test-concurrency=1 --test-reporter=spec \"tests/*.test.js\"",
+    "lint": "eslint .",
+    "docs:build": "node scripts/build-postman.js"
+  },
+  "private": true,
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "postman"
+  ],
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "compression": "^1.8.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.4",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.12.2",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "supertest": "^7.3.2"
+  }
+}
