@@ -10,7 +10,7 @@ Elle couvre tout le cahier des charges : utilisateurs, événements, groupes, fi
 
 | Document | Emplacement |
 |---|---|
-| **Documentation Postman publiée** | `À COMPLÉTER : coller ici l'URL obtenue après publication` |
+| **Documentation Postman publiée** | `https://documenter.getpostman.com/view/60259754/2sBYHbrbbn` |
 | Collection Postman à importer | [`postman/My_Social_Networks_API.postman_collection.json`](postman/My_Social_Networks_API.postman_collection.json) |
 | Liste de toutes les routes | [`docs/API.md`](docs/API.md) |
 | Choix de conception et modèle de données | [`docs/CONCEPTION.md`](docs/CONCEPTION.md) |
